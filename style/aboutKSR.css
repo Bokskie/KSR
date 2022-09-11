@@ -1,0 +1,114 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.863),rgba(43, 43, 43, 0.548)),url(../Images/BGKSR.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.container
+{
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav ul li.book a
+{
+    color: rgb(255, 255, 5);
+}
+.nav ul li.about-ksr a
+{
+    background: #ff4500 ;
+    border: 1px solid #ffffff85;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 2px 20px;
+}
+.nav
+{
+    
+    max-width: 100%;
+    justify-content: space-between;
+}
+.nav ul
+{
+    display: inline-block;
+    justify-content: right;
+}   
+.nav ul li 
+{
+    padding: 2px 5px;
+    display: inline-block;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav ul li:hover
+{
+    border-bottom: 3px solid #ff4500;
+    transition: .5s;
+}
+.nav article
+{
+    color: rgb(70, 200, 252);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.About-Us
+{
+    background: rgba(255, 253, 253, 0.548);
+    border-radius: 3rem;
+    width: 80%;
+    margin: auto;
+    height: 21800px;
+}
+.About-Us h1
+{
+    color: rgb(34, 236, 61);
+    text-align: center;
+}
+.details article
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+}
+.icons i 
+{
+    padding: 20px;
+}
+iframe
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    width: 80%;
+    margin: auto;
+}
+.lincense
+{
+    text-align: center;
+}
+.lincense h6
+{
+    color:#ffffff ;
+}

@@ -1,0 +1,150 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.863),rgba(43, 43, 43, 0.548)),url(../Images/BGKSR.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.container
+{
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav ul li.book a
+{
+    color: rgb(255, 255, 5);
+}
+.nav ul li.home a
+{
+    background: #ff4500 ;
+    border: 1px solid #ffffff85;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 2px 20px;
+}
+.nav
+{
+    
+    max-width: 100%;
+    justify-content: space-between;
+}
+.nav ul
+{
+    display: inline-block;
+    justify-content: right;
+}   
+.nav ul li 
+{
+    padding: 2px 5px;
+    display: inline-block;
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+.nav ul li:hover
+{
+    border-bottom: 3px solid #ff4500;
+    transition: .5s;
+}
+.nav article
+{
+    color: rgb(70, 200, 252);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.KSR-booking
+{
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-top: 180px;
+}
+.booking-indicate p
+{
+    
+    color: #fff;
+}
+.book-here
+{
+    margin-top: 20px;
+}
+.book-here a 
+{
+    border: 2px solid #ff4500;
+    border-radius: 3rem;
+    background: rgba(0, 0, 0, 0.863);
+    padding: 20px;
+    text-decoration: none;
+    color: #ff4500;
+}
+.book-here a:hover 
+{
+    background: rgba(204, 204, 204, 0.226);
+}
+.lp-section
+{
+    background: rgba(18, 17, 87, 0.452);
+    height: 100px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lp-section .lp-section-container
+{
+    display: flex;
+}
+.lp-section .lp-section-container .lp-footer
+{
+    display: flex;
+}
+.lp-section .lp-section-container .lp-footer .js-footer-toogle
+{
+    display: flex;
+}
+
+.lp-section .lp-section-container h4
+{
+   
+    color: #ffffff;
+}
+.social-media
+{
+    color: #ffffff;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0 20px;
+}
+.social
+{
+    display: flex;
+}
+.social .lp-social-section
+{
+    display: flex;
+}
+.social .lp-social-section .lp-social-footer .lp-social-icon a
+{
+    padding:0 20px 20px;
+}
+.lincense
+{
+    text-align: center;
+}
+.lincense h6
+{
+    color:#ffffff ;
+}
